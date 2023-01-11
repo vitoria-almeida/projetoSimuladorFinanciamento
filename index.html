@@ -13,6 +13,11 @@
             color: white;
             font: 11pt Tahoma;
         }
+        table, th, td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            padding: 15px;
+        }
     </style>
 </head>
 <body>
@@ -28,5 +33,23 @@
         <option value="3">3 meses</option>
         <option value="4">4 meses</option>
     </select>
+
+    <p></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Número parcela</th>
+                <th>Valor</th>
+                <th>Amotrização</th>
+                <th>Juros</th>
+                <th>Saldo devedor</th>
+            </tr>
+        </thead>
+
+        <tbody id='corpoTabela'>
+
+        </tbody>
+    </table>
 </body>
 </html>
